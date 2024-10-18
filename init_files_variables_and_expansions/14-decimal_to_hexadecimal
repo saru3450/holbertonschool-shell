@@ -1,2 +1,2 @@
-#!/bin/baSH
+#!/bin/bash
 printf "%x/n" $DECIMAL
