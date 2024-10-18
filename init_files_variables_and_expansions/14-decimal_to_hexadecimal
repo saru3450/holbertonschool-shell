@@ -1,2 +1,2 @@
 #!/bin/bash
-escpr $(printf "%x/n" $DECIMAL)
+escpr $(printf "%x" "((10#$DECIMAL))")
