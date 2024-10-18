@@ -1,2 +1,2 @@
 #!/bin/bash
-escpr $(printf "%x" "$((10#$DECIMAL))")
+expr $(printf "%x" "$((10#$DECIMAL))")
